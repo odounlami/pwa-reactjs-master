@@ -1,0 +1,10 @@
+import { Img } from "./Img";
+import { Button } from "./Button";
+import { Text } from "./Text";
+import { Heading } from "./Heading";
+import { Input } from "./Input";
+import { Img2 } from "./Img/index2";
+import { Button2 } from "./Button/index2";
+import { Text2 } from "./Text/index2";
+import { Heading2 } from "./Heading/index2";
+export { Img, Button, Text, Heading, Input, Img2, Button2, Text2, Heading2 };

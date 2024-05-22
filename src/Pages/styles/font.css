@@ -1,0 +1,21 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/LexendBold.ttf");
+  font-family: "Lexend";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/LexendMedium.ttf");
+  font-family: "Lexend";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/LexendRegular.ttf");
+  font-family: "Lexend";
+  font-weight: 400;
+}

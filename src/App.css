@@ -1,0 +1,121 @@
+
+.App {
+  text-align: center;
+}
+
+h2{
+  text-align: left;
+}
+
+
+
+/* Taille de l'application */
+
+.container{
+  /*Les quatres premières propriété permettent le repositionnement automatique au centre , 
+  je les ai désativé pour que l'image et ce qui est en dessous aient un padding et un margin de 0 par default, voir bootstrap.css*/
+  /* background: rgb(155, 155, 155); */
+  max-width:1550px;
+  height: auto;
+  padding: 10px;
+}
+
+.clubsRecommandation{
+  width: 400px;
+  height: 250px;
+}
+
+
+/*Couleur des icônes*/
+.bi-emoji-smile{
+  color: aliceblue;
+}
+
+.iconeLogout {
+  transition: transform 0.4s ease-in; 
+}
+
+.iconeLogout:hover {
+  transform: rotate(360deg); /* la rotation de 360 degrés */
+}
+
+.iconeSetting{
+  transition: transform 0.4s ease-in; 
+}
+
+.iconeSetting:hover{
+  transform: rotate(360deg); 
+}
+/*Notifications*/
+@keyframes swing {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(-35deg); }
+  100% { transform: rotateY(35deg); }
+}
+
+.iconeNotif:hover {
+  animation: swing 2s alternate; /* Utilisation de l'animation swing avec une durée de 2 secondes */
+}
+
+
+/*Style du profil
+
+....
+
+*/
+span.notifIcone{
+  color: red;
+}
+
+/*Effet lorsqu'on est sur une icone 
+.notifIcone:hover{
+
+}
+*/
+.navIcones{
+  /* background-color: rgb(94, 94, 5); */
+  justify-content: flex-end;
+}
+
+/*Le texte de Bienvenue*/
+.welcolme{
+  transform: translateY(-400%);
+  width: 570px;
+  height: 80px;
+}
+
+/* le bouton de la searchbar et le input de la searchBar */
+/* la div contenant la searchBar */
+
+.divParentSearchBar{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 510px;
+    height: 60px;
+    justify-content: space-between;
+    position: relative;
+    transform: translateY(-550%);
+    background: var(--blackMarquette);
+}
+/* input de la searchBar */
+
+.divSearchBar{ 
+  background: var(--blackMarquette);
+  border: none;
+  width: 410px;
+  height: 35px;
+  color: var(--white); 
+}
+/* bouton SearchBar */
+.btnSearchBar{
+   width: 80px;
+   height: 45px;
+}
+
+
+
+
+
+
